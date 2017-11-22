@@ -1,0 +1,109 @@
+    body{
+      margin: 0;
+      padding: 0;
+      background: #EEEEEE;
+      font-family: 'Tw Cen Mt';
+    }
+    h1,h2,h3,h4,h5,h6 {
+      padding: 0;
+      margin: 0;
+
+    }
+
+
+    div, aside, section {
+      box-sizing: border-box;
+    }
+
+    section#intro {
+      background: #ccc;
+      padding-top: 20px;
+      box-shadow: 0.278px 1.981px 39.56px 3.44px rgba(193, 192, 192, 0.83);
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      div.avatar {
+         background: #fff;
+         background-image: url(https://github.com/BontalaKomboPrince/starting-web-developpment/blob/master/images/timpp.jpeg?raw=true);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         width: 150px;
+         margin: 0 auto;
+         height: 150px;
+         border-radius: 100%;
+         box-shadow: 0.349px 4.988px 115.2px 12.8px rgba(82,81,81,0.33);
+          }
+        h1.intro-title{
+          color: red;
+          font-size: 20px;
+          font-weight: bold;
+          }
+        p.intro-subt{
+          position: absolute;
+          top: 45%;
+          left: 50%;
+          width: 800px;
+          margin: 0 0 0 -400px;
+          top: auto;
+          bottom: 0;
+          height: 50em;
+
+          color: #ffff66;
+          font-size: 64px;
+          text-align: justify;
+        }
+    }
+
+    section#social{
+      margin-top: -40px;
+      padding: 30px 0;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      ul {
+        list-style-type: none;
+        li{
+          display: inline-block;
+
+
+          a {
+            text-decoration: none;
+            font-size: 15px;
+
+              i{
+              margin:  6px;
+              list-style:none;
+              padding:5px;
+              font-size: 60px;
+              transition: all ease-in-out 250ms;
+              color: #959595;
+            }
+            i:hover{
+              color: #b9b9b9;
+            }
+          }
+        }
+      }
+    }
+
+    section#fav-mov{
+      list-style: none;
+
+      div#fav-pic {
+        width: 30%;
+        height: 200px;
+        background: #fff;
+        position: fixed;
+
+        div.side-pic1{
+
+
+        }
+
+
+      }
+
+    }
